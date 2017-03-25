@@ -1,0 +1,139 @@
+{
+	"consultants":[
+		{
+			"name": "Ivan",
+			"surname": "Ivanov",
+			"age": "19",
+			"country": "Belarus",
+			"city": "Minsk",
+			"description": "Clever and cute",
+			"payment": "5",
+			"rating": "4.5",
+			"image": "images/Ivan.jpg"
+		},
+		{
+			"name": "Nataly",
+			"surname": "Plishevskaya",
+			"age": "17",
+			"country": "Belarus",
+			"description": "Because I'm nice",
+			"city": "Vitebsk",
+			"payment": "free",
+			"rating": "4.0",
+			"image": "images/Nataly.jpg"
+		},
+		{
+			"name": "Nikolay",
+			"surname": "Sobolev",
+			"age": "26",
+			"country": "Russia",
+			"description": "Rich and strong",
+			"city": "St. Peterburg",
+			"payment": "15",
+			"rating": "5.0",
+			"image": "images/Nikolay.jpg"
+		},
+		{
+			"name": "Vika",
+			"surname": "Asadcheva",
+			"age": "21",
+			"country": "Belarus",
+			"description": "Hot and sexy",
+			"city": "Soligorsk",
+			"payment": "3",
+			"rating": "3.8",
+			"image": "images/Vika.jpg"
+		},
+		{
+			"name": "Igor",
+			"surname": "Kusnecov",
+			"age": "22",
+			"country": "The Ukraine",
+			"description": "I really enjoy this",
+			"city": "Kiev",
+			"payment": "free",
+			"rating": "4.2",
+			"image": "images/Igor.jpg"
+		},
+		{
+			"name": "Sergey",
+			"surname": "Sidorov",
+			"age": "17",
+			"country": "Belarus",
+			"description": "I just wanna meet new people",
+			"city": "Minsk",
+			"payment": "4",
+			"rating": "4.7",
+			"image": "images/Sergey.jpg"
+		}
+	],
+	"places":[
+		{
+			"title": "National library of Belarus",
+			"address": "prospect Nezavisimosty 116",
+			"lat": "53.931781",
+			"lng": "27.646160",
+			"country": "Belarus",
+			"city": "Minsk",
+			"description": "Main universal scientific library of Belarus",
+			"guides": "3",
+			"image": "images/library.jpg"
+		},
+		{
+			"title": "Victory Square",
+			"address": "Victory Square",
+			"lat": "53.909594",
+			"lng": "27.574265",
+			"country": "Belarus",
+			"city": "Minsk",
+			"description": "Square in the center of Minsk",
+			"guides": "3",
+			"image": "images/victory.jpg"
+		},
+		{
+			"title": "The House-Museum of Marc Chagall",
+			"address": "Pokrovskaya street 11",
+			"lat": "55.200462",
+			"lng": "30.190851",
+			"country": "Belarus",
+			"city": "Vitebsk",
+			"description": "Museum complex in Vitebsk",
+			"guides": "1",
+			"image": "images/Museum.jpg"
+		},
+		{
+			"title": "The State Hermitage Museum",
+			"address": "Palace Square, 2",
+			"lat": "59.940412",
+			"lng": "30.314560",
+			"country": "Russia",
+			"city": "St. Peterburg",
+			"description": "One of the largest and most significant art 
+				and cultural historical museums in Russia and the world",
+			"guides": "4",
+			"image": "images/Hermitage.jpg"
+		},
+		{
+			"title": "Sophia Cathedral",
+			"address": "Volodymyrska street, 24",
+			"lat": "50.453538",
+			"lng": "30.514306",
+			"country": "The Ukraine",
+			"city": "Kiev",
+			"description": "храм, построенный в первой половине XI века в центре Киева",
+			"guides": "2",
+			"image": "images/Cathedral.jpg"
+		},
+		{
+			"title": "The Eiffel Tower MINI",
+			"address": "Kozlova street 4",
+			"lat": "52.783968",
+			"lng": "27.533880",
+			"country": "Belarus",
+			"city": "Soligorsk",
+			"description": "Just like in Paris",
+			"guides": "1",
+			"image": "images/Tower.jpg"
+		}
+	]
+}

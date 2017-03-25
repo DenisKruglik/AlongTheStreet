@@ -1,0 +1,50 @@
+img{
+	width: 10vw;
+	float: left;
+	margin: 20px;
+	border-radius: 50%;
+}
+.consultant, .place{
+	clear: both;
+	overflow: hidden;
+}
+.centered{
+	margin: 0 auto;
+	width: 80vw;
+}
+header{
+	background: #00BB3F;
+	padding: 10px;
+}
+hgroup > h1{
+	margin: 0;
+}
+nav li{
+	list-style: none;
+	float: left;
+}
+header *{
+	display: inline-block;
+}
+nav ul{
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	text-decoration: none;
+	color: #333;
+}
+a:visited{
+	color: #333;
+}
+nav a{
+	display: block;
+	padding: 10px;
+}
+nav{
+	float: right;
+}

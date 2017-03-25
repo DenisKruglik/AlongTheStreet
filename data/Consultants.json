@@ -1,0 +1,73 @@
+{
+	"data": "consultants",
+	"source": "localhost/consultants.html",
+	"count": "6",
+	"consultants":[
+		{
+			"name": "Ivan",
+			"surname": "Ivanov",
+			"age": "19",
+			"country": "Belarus",
+			"city": "Minsk",
+			"description": "Clever and cute",
+			"payment": "5",
+			"rating": "4.5",
+			"image": "file/file/img1.jpg"
+		},
+		{
+			"name": "Nataly",
+			"surname": "Plishevskaya",
+			"age": "17",
+			"country": "Belarus",
+			"description": "Because I'm nice",
+			"city": "Vitebsk",
+			"payment": "free",
+			"rating": "4.0",
+			"image": "file/file/img2.jpg"
+		},
+		{
+			"name": "Nikolay",
+			"surname": "Sobolev",
+			"age": "26",
+			"country": "Russia",
+			"description": "Rich and strong",
+			"city": "St. Peterburg",
+			"payment": "15",
+			"rating": "5.0",
+			"image": "file/file/imgGreat.jpg"
+		},
+		{
+			"name": "Vika",
+			"surname": "Asadcheva",
+			"age": "21",
+			"country": "Belarus",
+			"description": "Hot and sexy",
+			"city": "Soligorsk",
+			"payment": "3",
+			"rating": "3.8",
+			"image": "file/file/img3.jpg"
+		},
+		{
+			"name": "Igor",
+			"surname": "Kusnecov",
+			"age": "22",
+			"country": "The Ukraine",
+			"description": "I really enjoy this",
+			"city": "Kiev",
+			"payment": "free",
+			"rating": "4.2",
+			"image": "file/file/img4.jpg"
+		},
+		{
+			"name": "Servey",
+			"surname": "Sidorov",
+			"age": "17",
+			"country": "Belarus",
+			"description": "I just wanna meet new people",
+			"city": "Minsk",
+			"payment": "4",
+			"rating": "4.7",
+			"image": "file/file/img5.jpg"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"data": "places",
+	"source": "localhost/places.html",
+	"count": "6",
+	"places":[
+		{
+			"title": "National library of Belarus",
+			"address": "prospect Nezavisimosty 116",
+			"lat": "53.931781",
+			"lng": "27.646160",
+			"country": "Belarus",
+			"city": "Minsk",
+			"description": "Main universal scientific library of Belarus",
+			"guides": "3",
+			"image": "file/file/library.jpg"
+		},
+		{
+			"title": "Victory Square",
+			"address": "Victory Square",
+			"lat": "53.909594",
+			"lng": "27.574265",
+			"country": "Belarus",
+			"city": "Minsk",
+			"description": "Square in the center of Minsk",
+			"guides": "3",
+			"image": "file/file/VictorySquare.jpg"
+		},
+		{
+			"title": "The House-Museum of Marc Chagall",
+			"address": "Pokrovskaya street 11",
+			"lat": "55.200462",
+			"lng": "30.190851",
+			"country": "Belarus",
+			"city": "Vitebsk",
+			"description": "Museum complex in Vitebsk",
+			"guides": "1",
+			"image": "file/file/Museum.jpg"
+		},
+		{
+			"title": "The State Hermitage Museum",
+			"address": "Palace Square, 2",
+			"lat": "59.940412",
+			"lng": "30.314560",
+			"country": "Russia",
+			"city": "St. Peterburg",
+			"description": "One of the largest and most significant art 
+				and cultural historical museums in Russia and the world",
+			"guides": "4",
+			"image": "file/file/Hermitage.jpg"
+		},
+		{
+			"title": "Sophia Cathedral",
+			"address": "Volodymyrska street, 24",
+			"lat": "50.453538",
+			"lng": "30.514306",
+			"country": "The Ukraine",
+			"city": "Kiev",
+			"description": "храм, построенный в первой половине XI века в центре Киева",
+			"guides": "2",
+			"image": "file/file/Cathedral.jpg"
+		},
+		{
+			"title": "The Eiffel Tower MINI",
+			"address": "Kozlova street 4",
+			"lat": "52.783968",
+			"lng": "27.533880",
+			"country": "Belarus",
+			"city": "Soligorsk",
+			"description": "Just like in Paris",
+			"guides": "1",
+			"image": "file/file/Tower.jpg"
+		}
+	]
+}

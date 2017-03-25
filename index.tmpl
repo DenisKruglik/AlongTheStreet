@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AlongTheStreet.com</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1>AlongTheStreet</h1>
+		</hgroup>
+		<nav>
+			<ul>
+				<li>Lorem.</li>
+				<li>Deserunt!</li>
+				<li>Ipsa.</li>
+				<li>Impedit!</li>
+				<li>Earum.</li>
+				<li>Suscipit!</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<div class="centered">
+				<h1>Explore the world with us!</h1>
+				<p>Our main goal is to help people discover new horizonts. Our online consultants will answer all the question on your trip and suggest you local sites to visit according to your preferences. Don't be afraid. Do it!</p>
+			</div>
+		</section>
+		<section>
+			<div class="centered">
+				<h3>Choose your preferences</h3>
+				<form>
+					<div class="input">
+						<label for="">Where are you going?</label>
+						<input type="text">
+					</div>
+					<div class="input">
+						<label for="">Trip duration</label>
+						<input type="number" min="1" max="30">
+						<span>days</span>
+					</div>
+					<div class="input">
+						<label for="">Amount of people</label>
+						<input type="number" min="1" max="10"></div>
+					<div class="input">
+						<label for="">Do you need a consultant?</label>
+						<select>
+							<option>Yes</option>
+							<option>No</option>
+						</select>
+					</div>
+					<div class="input">
+						<label for="">How much money are you going to spend?</label>
+						<input type="number" min="50">
+						<span>$</span>
+					</div>
+					<input type="submit" name="">
+				</form>
+			</div>
+		</section>
+		<section>
+			<div class="centered">
+				<h3>Choose the consultant</h3>
+				<TMPL_if consultants>
+					<div class="consultants">
+						<TMPL_foreach consultants as man>
+							<div class="consultant">
+								<img src="<TMPL_var man.image>">
+								<figure>
+									<h4><TMPL_var man.name> <TMPL_var man.surname></h4>
+									<div><span>Fatherland: <TMPL_var man.country></span></div>
+									<div><span>Home city: <TMPL_var man.city></span></div>
+									<div><span>Age: <TMPL_var man.age></span></div>
+									<div>
+										<span>Description:</span>
+										<p><TMPL_var man.description></p>
+									</div>
+									<div><span>Rating: <TMPL_var man.rating></span></div>
+									<div><span>Price: <TMPL_var man.payment>$/h</span></div>
+									<input type="button" name="" value="Choose">
+								</figure>
+							</div>
+						</TMPL_foreach>
+					</div>
+				</TMPL_if>
+			</div>
+		</section>
+		<section>
+			<div class="centered">
+				<h3>Choose sites you'd like to visit</h3>
+				<TMPL_if places>
+					<div class="places">
+						<TMPL_foreach places as place>
+							<div class="place">
+								<img src="<TMPL_var place.image>">
+								<figure>
+									<h4><TMPL_var place.title></h4>
+									<div><span>Country: <TMPL_var place.country></span></div>
+									<div><span>City: <TMPL_var place.city></span></div>
+									<div><span>Address: <TMPL_var place.address></span></div>
+									<div>
+										<span>Description:</span>
+										<p><TMPL_var place.description></p>
+									</div>
+									<div><span>Amount of consultants: <TMPL_var place.guides></span></div>
+									<input type="button" name="" value="Add">
+								</figure>
+							</div>
+						</TMPL_foreach>
+					</div>
+				</TMPL_if>
+			</div>
+		</section>
+		<section>
+			<div class="centered">
+				<div class="result">
+					<h1>Overall</h1>
+					<div>
+						<div><span>Country: Belarus</span></div>
+						<div><span>City: Minsk</span></div>
+						<div><span>Amount of people: 2</span></div>
+						<div><span>Budget: 400$</span></div>
+						<div><span>Trip duration: 5 days</span></div>
+						<div><span>Consultant: Nikolay Sobolev</span></div>
+						<h3>Your route:</h3>
+						<ul>
+							<li>National library of Belarus</li>
+							<li>Victory Square</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="foot-contain">C1 Corp. &copy;</div>
+	</footer>
+</body>
+</html>

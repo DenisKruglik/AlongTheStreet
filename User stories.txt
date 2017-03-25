@@ -1,0 +1,8 @@
+As a user, I want to choose sights, which I want to visit so that broaden my horizons.
+As a user, I want to choose trip duration so that correctly distribute my time.
+As a user, I want to choose amount of people so that organize a group.
+As a user, I want to refuse consultant so that don't pay unnecessary money.
+As a user, I want to know how much money I'm going to spend so that previously prepare.
+As a user, I want to choose a consultant and see all information about him, if i need him so that he advise and help me during the trip.
+As a user, I want to see some recommendations of sights and all information about their so that choose the most liked.
+As a user, as a result, I want to see all what I selected earlier point by point.
